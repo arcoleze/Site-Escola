@@ -1,20 +1,26 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
-
-:root{
- --cor-de-fundo: #e9e6e6;
- --branco: #FFFFFF;
- --amarelo: #FECD2F;
- --roxo-degrade: linear-gradient(94.49deg,#733887 35.48%,#C75EEB 143.32%);
- --roxo: #733887;
- --font-principal: "poppins";
- --font-secundaria: "Josefin Sans";
- --preto: #000000;
+h2{
+    color:orange;
 }
+
 body{
-    background-color: var(--cor-de-fundo);
-    font-family: var(--font-principal);
-    font-size: 16px;
-    font-weight: 400;
+    background-color: #305050;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+
+header{
+    border-bottom: 1px solid grey;
+}
+
+footer{
+    border-top: 1px solid grey;
+}
+
+#nome-usuário{
+    font-weight: bold;
+}
+
+.texto-inglês{
+    font-style: italic;
 }
